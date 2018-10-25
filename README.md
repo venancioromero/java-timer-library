@@ -35,9 +35,9 @@ Annote your methods with **@timer** annotation and enjoy!!
 By default the library have setted two thresholds that are used for choice log level of trace.
 
 ```
-LOG LEVEL --->          INFO            WARN             ERROR
+LOG LEVEL --->         INFO             WARN                  ERROR
 
-TIME(ms)  --->   0 ------------ 500 ------------ 1000 ------------
+TIME(ms)  --->   0 ------------ 500 ------------ 1000 ----------------------
 ```
 
 ## Optional
