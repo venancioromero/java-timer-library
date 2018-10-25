@@ -1,8 +1,8 @@
-package org.venoty.timer;
+package org.venancioromero.timer;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.venoty.timer.aspects.TimerAspect;
+import org.venancioromero.timer.aspects.TimerAspect;
 
 @Configuration
 public class Config {

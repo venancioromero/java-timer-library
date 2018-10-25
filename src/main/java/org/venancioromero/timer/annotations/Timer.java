@@ -1,4 +1,4 @@
-package org.venoty.timer.annotations;
+package org.venancioromero.timer.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

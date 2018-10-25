@@ -1,6 +1,6 @@
-package org.venoty.timer.aspects;
+package org.venancioromero.timer.aspects;
 
-import org.venoty.timer.annotations.Timer;
+import org.venancioromero.timer.annotations.Timer;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

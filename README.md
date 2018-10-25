@@ -2,7 +2,7 @@
 
 ## Description
 
-Micro Library that allows temporize your java methods with different threshold. 
+Micro Library that allows temporize your java methods with different thresholds. 
 
 ## Installation
 
