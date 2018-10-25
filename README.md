@@ -42,7 +42,7 @@ TIME(ms) ---->   0     >      500     >    1000
 
 ## Optional
 
-You can set another thresholds, remember that are in microseconds.
+You can set another thresholds, remember that are miliseconds.
 
 ```java
 
