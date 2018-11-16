@@ -28,11 +28,11 @@ Add dependency.
 
 ## Documentation
 
-Annote your methods with **@timer** annotation and enjoy!!
+Annotate your methods with **@timer** annotation and enjoy!!
 
 ## Default Values
 
-By default the library have setted two thresholds that are used for choice log level of trace.
+By default the library have set two thresholds that are used for choice log level of trace.
 
 ```
 LOG LEVEL --->         INFO             WARN                  ERROR
