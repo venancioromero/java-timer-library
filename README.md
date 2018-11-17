@@ -3,6 +3,7 @@
 ## Description
 
 Micro Library that allows temporize your java methods with different thresholds. 
+Furthermore, you can write results on a file in CSV format. 
 
 ## Installation
 
@@ -28,21 +29,34 @@ Add dependency.
 
 ## Documentation
 
-Annote your methods with **@timer** annotation and enjoy!!
+Annotate your methods with **@timer** annotation and enjoy!!
+
+## application.properties
+
+timer.file.enable        : property that activate property of write into file.
+timer.file.name          : Name of file. 
+timer.file.csv.separator : Separator of fields.   
 
 ## Default Values
 
-By default the library have setted two thresholds that are used for choice log level of trace.
+### Thresholds
+
+By default the library have set two thresholds that are used for choice log level of trace.
 
 ```
 LOG LEVEL --->  INFO         WARN          ERROR
 
 TIME(ms) ---->   0     >      500     >    1000
 ```
+### File
+
+timer.file.enable        : false
+timer.file.name          : timer.log
+timer.file.csv.separator : ;
 
 ## Optional
 
-You can set another thresholds, remember that are miliseconds.
+You can set another thresholds, remember that are miliseconds and modify default values,
 
 ```java
 
