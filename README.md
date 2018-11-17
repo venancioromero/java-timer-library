@@ -2,7 +2,7 @@
 
 ## Description
 
-Micro Library that allows temporize your java methods with different threshold. 
+Micro Library that allows temporize your java methods with different threshold and write times into files.
 
 ## Installation
 
@@ -32,9 +32,9 @@ Annotate your methods with **@timer** annotation and enjoy!!
 
 ## application.properties
 
-timer.file.enable        : property that activate property of write into file.
-timer.file.name          : Name of file. 
-timer.file.csv.separator : Separator of fields.   
+- timer.file.enable        : property that activate property of write into file.
+- timer.file.name          : Name of file. 
+- timer.file.csv.separator : Separator of fields.   
 
 ## Default Values
 
@@ -49,9 +49,9 @@ TIME(ms)  --->   0 ------------ 500 ------------ 1000 ----------------------
 ```
 ### File
 
-timer.file.enable        : false
-timer.file.name          : timer.log
-timer.file.csv.separator : ;
+- timer.file.enable        : false
+-  timer.file.name          : timer.log
+- timer.file.csv.separator : ;
 
 ## Optional
 
