@@ -2,8 +2,7 @@
 
 ## Description
 
-Micro Library that allows temporize your java methods with different thresholds. 
-Furthermore, you can write results on a file in CSV format. 
+Micro Library that allows temporize your java methods with different threshold. 
 
 ## Installation
 
@@ -44,9 +43,9 @@ timer.file.csv.separator : Separator of fields.
 By default the library have set two thresholds that are used for choice log level of trace.
 
 ```
-LOG LEVEL --->  INFO         WARN          ERROR
+LOG LEVEL --->         INFO             WARN                  ERROR
 
-TIME(ms) ---->   0     >      500     >    1000
+TIME(ms)  --->   0 ------------ 500 ------------ 1000 ----------------------
 ```
 ### File
 
